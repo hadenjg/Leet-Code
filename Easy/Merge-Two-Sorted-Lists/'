@@ -1,0 +1,34 @@
+#include <bits>
+
+struct ListNode{
+    int val;
+    ListNode *next;
+    ListNode() : val(0), next(nullptr) {}
+    ListNode(int x) : val(x), next(nullptr) {}
+    ListNode(int x, ListNode *next) : val(x), next(next) {}
+};
+
+
+int main(){
+
+    ListNode* l1 = NULL;
+    ListNode* f1 = NULL;
+    ListNode* f2 = NULL;
+
+    ListNode* l2 = NULL;
+    ListNode* s1 = NULL;
+    ListNode* s2 = NULL;
+
+    l1 = new ListNode();
+    l1->val = 1;
+    l1->next = f1;
+
+    f1 = new ListNode();
+
+
+
+
+
+
+return 0;
+}
